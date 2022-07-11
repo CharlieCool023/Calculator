@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 50vh;
     
 
 }
@@ -21,6 +21,9 @@ h3{
 }
 p{
     color: #C7D36F;
+}
+a{
+    text-decoration: none;
 }
 h1{
     color: #C7D36F;
@@ -69,6 +72,22 @@ h1{
     background: #03b1ff;
 }
 .footer{
-    padding: 30px;
+    padding: 40px;
     color: #FCF9C6;
 }
+.btn {
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #FAF4B7;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #FFFFDE;
+    text-decoration: none;
+  }
